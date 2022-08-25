@@ -16,7 +16,7 @@ function relogio() {
         alternancia.classList.remove('meioDia')
         alternancia.classList.add('tarde')
         document.querySelector('.turno').innerText = 'Tarde'
-    } else if (dataAtual.getHours() >= 18 && dataAtual.getHours() < 23) {
+    } else if (dataAtual.getHours() >= 18 && dataAtual.getHours() <= 23) {
         alternancia.classList.remove('tarde')
         alternancia.classList.add('noite')
         document.querySelector('.turno').innerText = 'Noite'
