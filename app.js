@@ -23,4 +23,4 @@ function relogio() {
     }
 } //fim do validador
 
-setInterval(relogio, 500) //roda a cada 1 segundo.
+setInterval(relogio, 1000) //roda a cada 1 segundo.
